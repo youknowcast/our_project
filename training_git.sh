@@ -16,5 +16,5 @@ do
   git pull
   git branch -d greeting
   echo "done. $i"
-  i=`$i+1`
+  i=$(expr $i + 1)
 done
